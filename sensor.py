@@ -119,7 +119,7 @@ class YandexGeocode(Entity):
         return self._picture
         
     @property
-    def device_state_attributes(self):
+    def extra_state_attributes(self):
         """Return the state attributes."""
         return{
             ATTR_STREET: self._street,
